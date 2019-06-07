@@ -1,3 +1,8 @@
 <resources>
     <string name="app_name">Rocas</string>
+    <string name="buttonStart">¡Jugar!</string>
+    <string name="textTitle">Rocas</string>
+    <string name="buttonConfig">Configuración</string>
+    <string name="buttonExit">Salir</string>
+    <string name="buttonData">Datos adicionales</string>
 </resources>
