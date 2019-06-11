@@ -5,4 +5,7 @@
     <string name="buttonConfig">Configuración</string>
     <string name="buttonExit">Salir</string>
     <string name="buttonData">Datos adicionales</string>
+    <string name="datos_adicionales">Datos adicionales</string>
+    <string name="texto_largo">Programadora: Sílvia Gomera Boné.
+        Fecha de creación: 06-06-2019</string>
 </resources>
