@@ -30,5 +30,10 @@ public class MainActivity extends AppCompatActivity {
 
     }
 
+    //mètode per sortir de l'aplicació
+    public void clickExitApp (View view){
+        finish();
+    }
+
 
 }
