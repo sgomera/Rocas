@@ -6,8 +6,19 @@
 
     <item
         android:id="@+id/configMenuItem"
-        android:title="@string/buttonConfig" />
+        android:icon="@android:drawable/ic_menu_preferences"
+        android:title="@string/buttonConfig"
+        app:showAsAction="never" />
     <item
         android:id="@+id/dataMenuItem"
-        android:title="@string/buttonData" />
+        android:icon="@android:drawable/ic_menu_info_details"
+        android:orderInCategory="20"
+        android:title="@string/buttonData"
+        app:showAsAction="ifRoom" />
+    <item
+        android:id="@+id/searchMenuItem"
+        android:icon="@android:drawable/ic_menu_search"
+        android:orderInCategory="10"
+        android:title="@string/buscar"
+        app:showAsAction="always" />
 </menu>
