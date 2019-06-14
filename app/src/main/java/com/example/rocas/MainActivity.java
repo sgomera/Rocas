@@ -3,6 +3,8 @@ package com.example.rocas;
 import android.content.Intent;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
+import android.view.Menu;
+import android.view.MenuItem;
 import android.view.View;
 
 public class MainActivity extends AppCompatActivity {
@@ -35,5 +37,27 @@ public class MainActivity extends AppCompatActivity {
         finish();
     }
 
+    //mètode per crear el menú. El returns'ha creat sol en generar el codi del mètode fent
+    //override. El profe de youtube havia fet return true. Com que ja funciona, ho deixo així
+    @Override
+    public boolean onCreateOptionsMenu(Menu menu) {
+        getMenuInflater().inflate(R.menu.menu_en_activity,menu );
+        return super.onCreateOptionsMenu(menu);
+       // return true;
+    }
 
+
+   //mètode per indicar a cada item del menú, què ha de fer.
+    @Override
+    public boolean onOptionsItemSelected(MenuItem item) {
+        int id = item.getItemId();
+
+        if (id == R.id.configMenuItem){
+            return true;
+        } else if (id == R.id.dataMenuItem){
+            clickAdditionalDataButton(null);
+            return true;
+        }
+        return super.onOptionsItemSelected(item);
+    }
 }

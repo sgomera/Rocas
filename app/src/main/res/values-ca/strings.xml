@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Roques</string>
+    <string name="buttonStart">Jugar!</string>
+    <string name="textTitle">Roques</string>
+    <string name="buttonConfig">Configuració</string>
+    <string name="buttonExit">Sortir</string>
+    <string name="buttonData">Dades addicionals</string>
+    <string name="datos_adicionales">Dades addicionals</string>
+    <string name="texto_largo">Programadora: Sílvia Gomera Boné. Data de creació: 06-06-2019</string>
+</resources>

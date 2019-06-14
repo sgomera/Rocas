@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Rocks</string>
+    <string name="buttonStart">¡Play!</string>
+    <string name="textTitle">Rocks</string>
+    <string name="buttonConfig">Configuration</string>
+    <string name="buttonExit">Exit</string>
+    <string name="buttonData">Aditional Data</string>
+    <string name="datos_adicionales">Aditional Data</string>
+    <string name="texto_largo">Developer: Sílvia Gomera Boné.
+        Creation Date: 06-06-2019</string>
+</resources>
